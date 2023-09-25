@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-1</title>
+</head>
+
+<body>
+
+    <h1>Action will be perform </h1>
+    <button id="btn1">Start</button>
+    <button id="btn2">End</button>
+
+</body>
+<script>
+
+    let btn1 = document.querySelector('#btn1')
+    let btn2 = document.querySelector('#btn2')
+    let colour = ['red', 'green', 'black', 'yellow', 'pink']
+
+    
+
+
+    btn1.addEventListener('click', function () {
+
+
+
+let newColour = Math.floor(Math.random() * colour.length)
+document.body.style.backgroundColor = colour[newColour]
+
+})
+    btn2.addEventListener('click', function () {
+        clearInterval(colour)
+    })
+
+
+
+
+
+</script>
+
+</html>
