@@ -24,3 +24,7 @@ let arr3=arr2.flat(Infinity)
 // console.log(arr4)
 // console.log(arr3.toLocaleString())
 // console.log(arr3.join('-'))
+function mai(){
+    console.log("function is created");
+}
+mai();

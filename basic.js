@@ -9,7 +9,8 @@
 let name="ganesh"
 console.log(name)
 
-
+let add= a+b;
+console.log(add)
 let age=20
 console.log(age)
 
